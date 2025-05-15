@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Equções horárias</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" disabled>
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">Equções horárias</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item dropdown">
+                              <button id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme" class="nav-link dropdown-toggle">
+                                <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                <span class="d-lg-none ms-2">Toggle theme</span>
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                                    <i class="fa-solid fa-sun fa-fw"></i>
+                                    <span class="ms-2">Light</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="true">
+                                    <i class="fa-solid fa-moon fa-fw"></i>
+                                    <span class="ms-2">Dark</span>
+                                    <i class="fa-solid fa-check ms-auto"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+                                    <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                    <span class="ms-2">Auto</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                              </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="js/darkmode.js"></script>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="2"><a href="#1-equacao-horaria-da-posicao" class="nav-link">1. Equação Horária da Posição</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="2"><a href="#2-equacao-de-torricelli" class="nav-link">2. Equação de Torricelli</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="1-equacao-horaria-da-posicao">1. Equação Horária da Posição</h2>
+<p>Existem duas situações principais para a equação horária da posição, dependendo do tipo de movimento:</p>
+<p><strong>a) Movimento Uniforme (MU):</strong></p>
+<p>Neste tipo de movimento, a velocidade do objeto é constante e diferente de zero, e a aceleração é nula.</p>
+<p>A equação horária da posição é:</p>
+<p><span class="arithmatex">\(S = S_0 + v \cdot t\)</span></p>
+<p>Onde:</p>
+<ul>
+<li><strong>S</strong>: É a <strong>posição final</strong> do objeto em um determinado instante. Sua unidade no Sistema Internacional (SI) é o metro (m).</li>
+<li><strong>S</strong>: É a <strong>posição inicial</strong> do objeto, ou seja, a posição em que ele se encontrava no instante <span class="arithmatex">\(t=0\)</span>. Sua unidade no SI também é o metro (m).</li>
+<li><strong>v</strong>: É a <strong>velocidade constante</strong> do objeto. Sua unidade no SI é metros por segundo (m/s). Se v &gt; 0, o movimento é progressivo (a favor da orientação da trajetória). Se <span class="arithmatex">\(v &lt; 0\)</span>, o movimento é retrógrado (contra a orientação da trajetória).</li>
+<li><strong><span class="arithmatex">\(t\)</span></strong>: É o <strong>tempo</strong> decorrido desde o início do movimento. Sua unidade no SI é o segundo (s).</li>
+</ul>
+<p><strong>Gráficos do Movimento Uniforme (MU):</strong></p>
+<ul>
+<li>
+<p><strong>Gráfico da Posição em Função do Tempo (<span class="arithmatex">\(S \times t\)</span>):</strong></p>
+<ul>
+<li>Como a equação <span class="arithmatex">\(S = S_0 + v \cdot t\)</span> é uma função do primeiro grau em relação ao tempo, o gráfico <span class="arithmatex">\(S \times t\)</span> é sempre uma <strong>reta inclinada</strong>.</li>
+<li>O <strong>coeficiente linear</strong> da reta (onde ela corta o eixo <span class="arithmatex">\(S\)</span>) é a <strong>posição inicial (<span class="arithmatex">\(S_0\)</span>)</strong>.</li>
+<li>A <strong>inclinação da reta</strong> (tangente do ângulo que a reta faz com o eixo <span class="arithmatex">\(t\)</span>) representa a <strong>velocidade (<span class="arithmatex">\(v\)</span>)</strong>.<ul>
+<li>Se a reta for crescente, a velocidade é positiva (movimento progressivo).</li>
+<li>Se a reta for decrescente, a velocidade é negativa (movimento retrógrado).</li>
+<li>Se a reta for horizontal, a velocidade é zero (repouso), o que tecnicamente não seria um MU, mas um caso limite.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Gráfico da Velocidade em Função do Tempo (<span class="arithmatex">\(v \times t\)</span>):</strong></p>
+<ul>
+<li>Como a velocidade é constante no MU, o gráfico <span class="arithmatex">\(v \times t\)</span> é uma <strong>reta horizontal paralela ao eixo do tempo (<span class="arithmatex">\(t\)</span>)</strong>.</li>
+<li>A altura dessa reta em relação ao eixo <span class="arithmatex">\(t\)</span> indica o valor da velocidade.</li>
+<li>A área sob a reta no gráfico <span class="arithmatex">\(v \times t\)</span>, entre dois instantes de tempo, representa o <strong>deslocamento (<span class="arithmatex">\(\Delta S\)</span>)</strong> nesse intervalo.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gráfico da Aceleração em Função do Tempo (<span class="arithmatex">\(a \times t\)</span>):</strong></p>
+<ul>
+<li>Como a aceleração é nula no MU, o gráfico <span class="arithmatex">\(a \times t\)</span> é uma <strong>reta horizontal sobre o eixo do tempo (<span class="arithmatex">\(t\)</span>)</strong>, indicando <span class="arithmatex">\(a = 0\)</span>.</li>
+</ul>
+</li>
+</ul>
+<p><strong>b) Movimento Uniformemente Variado (MUV):</strong></p>
+<p>Neste tipo de movimento, a velocidade do objeto varia de maneira uniforme ao longo do tempo, o que significa que a aceleração é constante e diferente de zero.</p>
+<p>A equação horária da posição é:</p>
+<p><span class="arithmatex">\(S = S_0 + v_0 \cdot t + \frac{1}{2} \cdot a \cdot t^2\)</span></p>
+<p>Onde:</p>
+<ul>
+<li><strong><span class="arithmatex">\(S\)</span></strong>: É a <strong>posição final</strong> do objeto em um determinado instante. Unidade no SI: metro (m).</li>
+<li><strong><span class="arithmatex">\(S_0\)</span></strong>: É a <strong>posição inicial</strong> do objeto (no instante <span class="arithmatex">\(t=0\)</span>). Unidade no SI: metro (m).</li>
+<li><strong><span class="arithmatex">\(v_0\)</span></strong>: É la <strong>velocidade inicial</strong> do objeto (no instante <span class="arithmatex">\(t=0\)</span>). Unidade no SI: metros por segundo (m/s).</li>
+<li><strong><span class="arithmatex">\(a\)</span></strong>: É a <strong>aceleração constante</strong> do objeto. Unidade no SI: metros por segundo ao quadrado (m/s²).<ul>
+<li>Se <span class="arithmatex">\(a &gt; 0\)</span>, o movimento é acelerado quando <span class="arithmatex">\(v &gt; 0\)</span> e retardado quando <span class="arithmatex">\(v &lt; 0\)</span> (a velocidade e a aceleração têm o mesmo sinal para acelerado, e sinais opostos para retardado).</li>
+<li>Se <span class="arithmatex">\(a &lt; 0\)</span>, o movimento é retardado quando <span class="arithmatex">\(v &gt; 0\)</span> e acelerado quando <span class="arithmatex">\(v &lt; 0\)</span>.</li>
+</ul>
+</li>
+<li><strong><span class="arithmatex">\(t\)</span></strong>: É o <strong>tempo</strong> decorrido. Unidade no SI: segundo (s).</li>
+</ul>
+<p><strong>Gráficos do Movimento Uniformemente Variado (MUV):</strong></p>
+<ul>
+<li>
+<p><strong>Gráfico da Posição em Função do Tempo (<span class="arithmatex">\(S \times t\)</span>):</strong></p>
+<ul>
+<li>Como a equação <span class="arithmatex">\(S = S_0 + v_0 \cdot t + \frac{1}{2} \cdot a \cdot t^2\)</span> é uma função do segundo grau em relação ao tempo, o gráfico <span class="arithmatex">\(S \times t\)</span> é sempre uma <strong>parábola</strong>.</li>
+<li>A <strong>concavidade da parábola</strong> é determinada pelo sinal da <strong>aceleração (<span class="arithmatex">\(a\)</span>)</strong>:<ul>
+<li>Se <span class="arithmatex">\(a &gt; 0\)</span>, a concavidade é voltada para cima.</li>
+<li>Se <span class="arithmatex">\(a &lt; 0\)</span>, a concavidade é voltada para baixo.</li>
+</ul>
+</li>
+<li>O <strong>ponto onde a parábola corta o eixo <span class="arithmatex">\(S\)</span></strong> (quando <span class="arithmatex">\(t=0\)</span>) é a <strong>posição inicial (<span class="arithmatex">\(S_0\)</span>)</strong>.</li>
+<li>O <strong>vértice da parábola</strong> representa o ponto onde a velocidade instantânea do objeto é zero (inversão do sentido do movimento, se houver, ou o ponto de máximo ou mínimo deslocamento dependendo da situação).</li>
+</ul>
+</li>
+<li>
+<p><strong>Gráfico da Velocidade em Função do Tempo (<span class="arithmatex">\(v \times t\)</span>):</strong></p>
+<ul>
+<li>A equação da velocidade no MUV é <span class="arithmatex">\(v = v_0 + a \cdot t\)</span> (também conhecida como equação horária da velocidade). Esta é uma função do primeiro grau.</li>
+<li>Portanto, o gráfico <span class="arithmatex">\(v \times t\)</span> é uma <strong>reta inclinada</strong>.</li>
+<li>O <strong>coeficiente linear</strong> da reta (onde ela corta o eixo <span class="arithmatex">\(v\)</span>) é a <strong>velocidade inicial (<span class="arithmatex">\(v_0\)</span>)</strong>.</li>
+<li>A <strong>inclinação da reta</strong> representa a <strong>aceleração (<span class="arithmatex">\(a\)</span>)</strong>.<ul>
+<li>Se a reta for crescente, <span class="arithmatex">\(a &gt; 0\)</span>.</li>
+<li>Se a reta for decrescente, <span class="arithmatex">\(a &lt; 0\)</span>.</li>
+<li>Se a reta for horizontal, <span class="arithmatex">\(a = 0\)</span> (o que seria um MU, não MUV).</li>
+</ul>
+</li>
+<li>A <strong>área sob a reta</strong> no gráfico <span class="arithmatex">\(v \times t\)</span>, entre dois instantes de tempo, representa o <strong>deslocamento (<span class="arithmatex">\(\Delta S\)</span>)</strong> nesse intervalo.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gráfico da Aceleração em Função do Tempo (<span class="arithmatex">\(a \times t\)</span>):</strong></p>
+<ul>
+<li>Como a aceleração é constante no MUV, o gráfico <span class="arithmatex">\(a \times t\)</span> é uma <strong>reta horizontal paralela ao eixo do tempo (<span class="arithmatex">\(t\)</span>)</strong>.</li>
+<li>A altura dessa reta em relação ao eixo <span class="arithmatex">\(t\)</span> indica o valor da aceleração.</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-equacao-de-torricelli">2. Equação de Torricelli</h2>
+<p>A Equação de Torricelli é particularmente útil no MUV porque ela relaciona a velocidade de um corpo com o seu deslocamento, <strong>sem depender diretamente do tempo</strong>. Isso é muito vantajoso quando o tempo não é fornecido no problema ou não se deseja calculá-lo.</p>
+<p>A equação é:</p>
+<p><span class="arithmatex">\(v^2 = v_0^2 + 2 \cdot a \cdot \Delta S\)</span></p>
+<p>Onde:</p>
+<ul>
+<li><strong><span class="arithmatex">\(v\)</span></strong>: É a <strong>velocidade final</strong> do objeto. Unidade no SI: metros por segundo (m/s).</li>
+<li><strong><span class="arithmatex">\(v_0\)</span></strong>: É a <strong>velocidade inicial</strong> do objeto. Unidade no SI: metros por segundo (m/s).</li>
+<li><strong><span class="arithmatex">\(a\)</span></strong>: É a <strong>aceleração constante</strong> do objeto. Unidade no SI: metros por segundo ao quadrado (m/s²).</li>
+<li><strong><span class="arithmatex">\(\Delta S\)</span></strong>: É o <strong>deslocamento</strong> do objeto (<span class="arithmatex">\(S - S_0\)</span>). Unidade no SI: metro (m).</li>
+</ul>
+<p><strong>Componentes da Equação de Torricelli:</strong></p>
+<ul>
+<li><strong><span class="arithmatex">\(v^2\)</span> (Velocidade final ao quadrado):</strong> Relaciona-se com a energia cinética final do objeto.</li>
+<li><strong><span class="arithmatex">\(v_0^2\)</span> (Velocidade inicial ao quadrado):</strong> Relaciona-se com a energia cinética inicial do objeto.</li>
+<li><strong><span class="arithmatex">\(2 \cdot a \cdot \Delta S\)</span> (Duas vezes o produto da aceleração pelo deslocamento):</strong> Este termo está relacionado ao trabalho realizado pela força resultante que causa a aceleração, alterando a energia cinética do objeto.</li>
+</ul>
+<p><strong>Gráficos relacionados à Equação de Torricelli:</strong></p>
+<p>A Equação de Torricelli em si (<span class="arithmatex">\(v^2 = v_0^2 + 2 \cdot a \cdot \Delta S\)</span>) não é tipicamente usada para gerar um gráfico direto de "Torricelli vs. alguma coisa" da mesma forma que as equações horárias geram gráficos de <span class="arithmatex">\(S \times t\)</span> ou <span class="arithmatex">\(v \times t\)</span>.</p>
+<p>No entanto, podemos analisar a relação entre as grandezas presentes nela:</p>
+<ul>
+<li>
+<p><strong>Gráfico de <span class="arithmatex">\(v^2\)</span> em função de <span class="arithmatex">\(\Delta S\)</span>:</strong></p>
+<ul>
+<li>Se rearranjarmos a equação como <span class="arithmatex">\(v^2 = (2a) \cdot \Delta S + v_0^2\)</span>, vemos que ela tem a forma de uma equação linear <span class="arithmatex">\(y = m x + c\)</span>, onde:<ul>
+<li><span class="arithmatex">\(y = v^2\)</span></li>
+<li><span class="arithmatex">\(x = \Delta S\)</span></li>
+<li><span class="arithmatex">\(m = 2a\)</span> (o coeficiente angular da reta é o dobro da aceleração)</li>
+<li><span class="arithmatex">\(c = v_0^2\)</span> (o coeficiente linear, onde a reta corta o eixo <span class="arithmatex">\(v^2\)</span>, é o quadrado da velocidade inicial)</li>
+</ul>
+</li>
+<li>Portanto, se plotarmos <span class="arithmatex">\(v^2\)</span> no eixo vertical e <span class="arithmatex">\(\Delta S\)</span> no eixo horizontal, para um MUV, obteremos uma <strong>reta</strong>.</li>
+<li>A <strong>inclinação</strong> desta reta nos dará <span class="arithmatex">\(2a\)</span>.</li>
+<li>O ponto onde a reta cruza o eixo <span class="arithmatex">\(v^2\)</span> (quando <span class="arithmatex">\(\Delta S = 0\)</span>) nos dará <span class="arithmatex">\(v_0^2\)</span>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Gráfico de <span class="arithmatex">\(v\)</span> em função de <span class="arithmatex">\(\Delta S\)</span>:</strong></p>
+<ul>
+<li>Se quisermos plotar <span class="arithmatex">\(v\)</span> diretamente em função de <span class="arithmatex">\(\Delta S\)</span>, teríamos <span class="arithmatex">\(v = \sqrt{v_0^2 + 2 \cdot a \cdot \Delta S}\)</span>.</li>
+<li>Este gráfico <strong>não será uma reta</strong>, mas sim um arco de parábola "deitado" (a raiz quadrada de uma função linear em <span class="arithmatex">\(\Delta S\)</span>).</li>
+<li>A forma exata dependerá dos valores de <span class="arithmatex">\(v_0\)</span> e <span class="arithmatex">\(a\)</span>.</li>
+<li>Este tipo de gráfico é menos comum em nível introdutório, mas ilustra como a velocidade varia com o deslocamento (por exemplo, em um movimento acelerado, a velocidade aumenta mais rapidamente no início do deslocamento se <span class="arithmatex">\(v_0\)</span> for pequena, e a taxa de aumento da velocidade com o deslocamento diminui à medida que <span class="arithmatex">\(\Delta S\)</span> cresce, devido à relação quadrática).</li>
+</ul>
+</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="javascripts/mathjax.js"></script>
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2025-05-15 00:00:27.977132+00:00
+-->

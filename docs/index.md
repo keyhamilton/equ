@@ -77,7 +77,7 @@ Onde:
 * **Gráfico da Aceleração em Função do Tempo ($a \times t$):**
     * Como a aceleração é constante no MUV, o gráfico $a \times t$ é uma **reta horizontal paralela ao eixo do tempo ($t$)**.
     * A altura dessa reta em relação ao eixo $t$ indica o valor da aceleração.
-
+##### Veja os *[gráficos](graphs.md)*
 ## 2. Equação de Torricelli
 
 A Equação de Torricelli é particularmente útil no MUV porque ela relaciona a velocidade de um corpo com o seu deslocamento, **sem depender diretamente do tempo**. Isso é muito vantajoso quando o tempo não é fornecido no problema ou não se deseja calculá-lo.
