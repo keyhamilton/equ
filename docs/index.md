@@ -17,9 +17,9 @@ $S = S_0 + v \cdot t$
 
 Onde:
 
-* **S**: É a **posição final** do objeto em um determinado instante. Sua unidade no Sistema Internacional (SI) é o metro (m).
+* **$S$**: É a **posição final** do objeto em um determinado instante. Sua unidade no Sistema Internacional (SI) é o metro (m).
 * **$S_0$**: É a **posição inicial** do objeto, ou seja, a posição em que ele se encontrava no instante $t=0$. Sua unidade no SI também é o metro (m).
-* **v**: É a **velocidade constante** do objeto. Sua unidade no SI é metros por segundo (m/s). Se v > 0, o movimento é progressivo (a favor da orientação da trajetória). Se $v < 0$, o movimento é retrógrado (contra a orientação da trajetória).
+* **$v$**: É a **velocidade constante** do objeto. Sua unidade no SI é metros por segundo (m/s). Se v > 0, o movimento é progressivo (a favor da orientação da trajetória). Se $v < 0$, o movimento é retrógrado (contra a orientação da trajetória).
 * **$t$**: É o **tempo** decorrido desde o início do movimento. Sua unidade no SI é o segundo (s).
 
 **Gráficos do Movimento Uniforme (MU):**
